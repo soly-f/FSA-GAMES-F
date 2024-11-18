@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sail&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DynaPuff:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .1%;
+    padding: 2rem 9%;
+    background: #7a19e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+    font-family: Josefin Sans;
+    
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+    
+}
+.container{
+    
+    display: flex;
+    padding-left: 30%;
+    padding-top: 1px;
+    justify-content: space-between;
+    margin-right: 20%;
+    gap: 2rem;
+   
+    
+     
+}
+
+.btn {
+    position: relative;
+    background: #fff;
+    
+    color: #000;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: .1rem;
+    font-weight: 200;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 1rem;
+
+}
+.btn a{
+    text-decoration: none;
+
+}
+
+
+.P-Home{
+    
+ 
+    height: 100vh;
+    
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+     
+    background-color: #3f3481;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home img{
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.all-games{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.games{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.games .games-title, .games {
+	font-size: 18px;
+}
+
+.games:hover img{
+	scale:  1.1;
+}
+
+
+
+.games img {
+	height: 200px;
+    width: 400px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.games .games-btn a{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #a31dd8;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: .1%;
+    padding: 2rem 9%;
+    background: #7a19e7;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.footer h3{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+    font-family: Josefin Sans;
+    padding-left: 20%;
+    
+    
+  
+
+}
+.container2{
+    
+    display: flex;
+    padding-left: 80%;
+    padding-top: 1px;
+    justify-content: space-between;
+    margin-right: 20%;
+    gap: .5rem;
+    
+     
+}
+.btnb{
+    position: relative;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: .1rem;
+    font-weight: 70;
+    padding: 3px 9px;
+    transition: 0.5s;
+    border-radius: 1rem;
+
+}
+
+
+
+
+/*-----------------------  @media--------------------------------------------------------------------------------------------------*/
+
+  
+    @media  (max-width: 1150px) {
+        .header{
+            height: 1rem;
+        }
+        .logo {
+            font-size: .5rem;
+            color: #fff;
+            font-weight: 200;
+            cursor: default;
+            font-family: Josefin Sans;
+            justify-content: center;
+            
+            text-decoration: none;
+            outline: none;
+            border: none;
+        
+            
+        }
+
+        .container{
+    
+            position: relative;
+            padding-left:.5rem;
+            padding-top: 1px;
+            justify-content: space-between;
+            margin-right: 70%;
+            gap: .2rem;
+           
+            
+             
+        }
+        .btn {
+            display: block;
+            scroll-margin: 1;
+            background: #fff;
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;
+            font-size: .2rem;
+            letter-spacing: .1rem;
+            font-weight: 5px;
+            padding: 1px 3px;
+            transition: 0.5s;
+            border-radius: 1rem;
+            
+            
+        
+        }
+      
+        .home{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+        }
+
+
+        
+        
+        
+       
+       
+           
+        /*---------------------------------------*/
+            .all-games {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                width: 90%;
+                height: 1%;
+                
+                gap: .10;
+               
+            } 
+            .P-Home{
+                display: flex;
+                height: 100%;
+            }
+                
+                
+                
+            
+        
+                #container{
+    
+                    display: flex;
+                    padding-left: 20%;
+                    padding-top: 1px;
+                    justify-content: space-between;
+                    margin-right: 20%;
+                    gap: .2rem;
+                    
+                     
+                }
+              
+                .footer h3{
+                    display: flex;
+                    position: fixed;
+                    
+                    font-size: .1rem;
+                    color: #fff;
+                    font-weight: 700;
+                    cursor: default;
+                    font-family: Josefin Sans;
+                    padding-left: 3rem;
+                    padding-bottom: 3rem;
+                    
+                    
+                  
+                
+                }
+                .container2{
+                    display: flex;
+                    padding-left: 10%;
+                    padding-top: 1px;
+                    justify-content: space-between;
+                    margin-right: 20%;
+                    gap: .1rem;
+                    
+                     
+                }
+                .btnb{
+                    position: relative;
+                    background: #fff;
+                    text-decoration: none;
+                    color: #000;
+                    text-transform: uppercase;
+                    font-size: .35rem;
+                    letter-spacing: .1rem;
+                    font-weight: 30rem;
+                    padding: 3px 9px;
+                    transition: 0.5s;
+                    border-radius: 1rem;
+                
+                }
+  
+    }
+    
+    
+
+
+
+    
+
+    
+
+   
+       
+            
+           
+            
+    
+       
+            
+            
+
+    
+
+     
+       
+
+
+
+
+ 
+    
